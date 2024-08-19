@@ -18,7 +18,9 @@ Singleton class can be instantiated by two methods:
 1./Early initialization : In this method, class is initialized whether it is to be used or not. The main advantage of this method is its simplicity. You initiate the class at the time of class loading. 
 Its drawback is that class is always initialized whether it is being used or not.
 2./Lazy initialization : In this method, class in initialized only when it is required. It can save you from instantiating the class when you don’t need it. Generally, lazy initialization is used when we create a singleton class.
-
+--------------------------------------------------------------------------------------------------------------------
+Disavantage:
+1./Hard to Subclass: Subclassing a Singleton can be challenging. Because the constructor is typically private, extending a Singleton requires additional care and may not follow standard inheritance patterns.
 
 Code example C++:
 #include <iostream>
