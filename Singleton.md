@@ -42,6 +42,7 @@ Disavantage:
 1./Hard to Subclass: Subclassing a Singleton can be challenging. Because the constructor is typically private, extending a Singleton requires additional care and may not follow standard inheritance patterns.
 
 Code example C++:
+```C++
 #include <iostream>
 using namespace std;
 
@@ -83,3 +84,4 @@ int main()
     obj1->releaseSingleton();
     return 0;
 }
+```
