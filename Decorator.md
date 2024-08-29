@@ -1,5 +1,7 @@
 **1. Định nghĩa**
 
+The Decorator Design Pattern is a structural design pattern that allows behavior to be added to individual objects dynamically, without affecting the behavior of other objects from the same class. It involves creating a set of decorator classes that are used to wrap concrete components.
+
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
 Decorator pattern là một trong những Pattern thuộc nhóm cấu trúc (Structural Pattern). Nó cho phép người dùng thêm chức năng mới vào đối tượng hiện tại mà không muốn ảnh hưởng đến các đối tượng khác.
@@ -39,5 +41,7 @@ Thay vì việc phải tạo ra rất nhiều class để kết hợp các chứ
 
 ![image](https://github.com/user-attachments/assets/57978e28-845c-4825-9702-6ed8a5c29b71)
 
+
+![image](https://github.com/user-attachments/assets/1eb2ab5b-f9f6-45d5-bf88-921d2e1b173e)
 
 
